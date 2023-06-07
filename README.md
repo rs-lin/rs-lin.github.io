@@ -1,1 +1,1 @@
-# [my landing page](rs-lin.github.io)
+# [my landing page](https://rs-lin.github.io/)
