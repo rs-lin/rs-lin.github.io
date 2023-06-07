@@ -1,0 +1,77 @@
+#name{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  margin:auto;
+  left: 50%;
+  width: 30%;
+}
+#nav {
+  display:flex;
+  justify-content:space-between;
+  width:30%;
+  left: 50%;
+  margin:auto;
+}
+#navButton{
+  height:50px;
+  width:150px;
+  font-size: 30px;
+  font-weight: 400;
+  text-align:center;
+
+}
+#navButton a:hover{
+  color:olive;
+  background-color:salmon;
+}
+#navButton a:visited{
+  color:white;
+}
+#navButton a:active{
+  color:black;
+  background-color:pink;
+}
+#navButton a:link{
+  text-decoration:underline;
+  background-color:tan;
+}
+
+#about{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin:auto;
+  left: 50%;
+  width: 30%;
+}
+
+.post{
+  width:30%;
+  padding:10px;
+  float:left;
+}
+.post img {
+  width:80%;
+  margin-left: 70%;
+  margin-right: 0%;
+  margin-top:10px;
+}
+.textarea{
+  width: 40%;
+  float:right;
+  margin-left: 20%;
+  margin-right: 5%;
+}
+.textarea h6{
+  width:60%;
+}
+.textarea h5{
+  width:66%;
+  font-size: 20px;
+}
+nav{
+  position:fixed;
+}

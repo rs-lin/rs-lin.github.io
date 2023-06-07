@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Cheat Sheet</title>
+    <!-- Media query for full browser width -->
+    <link rel="stylesheet" media="only screen and (min-width: 961px)" href="styles/desktop.css">
+
+    <!-- Bootstrap -->
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .navbar{
+        margin-bottom:0;
+        border-radius:0;
+      }
+    </style>
+  </head>
+  <body>
+    <br>
+    <div class="row">
+      <div class="col-md-3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>
+      </div>
+      <nav class="navbar navbar-inverse">
+        <div class="container" >
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Home</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="cv/RLcv.pdf" target = "_blank">CV <span class="sr-only">(current)</span></a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="mailto: rlin8@gmu.edu"> Email </a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="https://www.linkedin.com/in/ruishanlin/" target = "_blank">Linkedin</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="https://github.com/rs-lin" target = "_blank">Github</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+      <!-- JUMBOTRON -->
+      <div class="jumbotron text-center">
+        <div class="container">
+          <h1>Ruishan Lin</h1>
+          <p>Statistics Doctral Student @ George Mason University</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+      <!--Photo -->
+      <div class="post">
+        <img src="img/squaredProfilePic.jpg"/>
+      </div>
+      <!-- text-->
+      <div class="textarea">
+        <h5> I am a second year statistics PhD student at George Mason University (GMU). I work with <a href="https://jauerbach.github.io/"> Dr. Jonathan Auerbach </a> and <a href="https://www.dkepplinger.org/"> Dr. David Kepplinger </a>. The goal of my research is to develop data analytical tools to handle outliers and quantify uncertainty for citizen science data.  My research interests focus on robust and non-parametric statistical methodologies and applications.</h6>
+        <h5> Before coming to Mason, I obtained a Bachelor's in mathematics and a minor in German from New York University (NYU). In my junior year, I lived in Germany for one semester as an exchange student. After graduating from NYU, I worked as a machine learning engineer for a FinTech startup, where I became familiar with the financial market and chatbot development.
+        </div>
+      <div class="col-md-3">
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
