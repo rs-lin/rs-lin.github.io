@@ -57,7 +57,7 @@
   width:80%;
   margin-left: 70%;
   margin-right: 0%;
-  margin-top:10px;
+  margin-top: 50px;
 }
 .textarea{
   width: 40%;
@@ -67,9 +67,10 @@
 }
 .textarea h6{
   width:60%;
+  font-size: 17px;
 }
 .textarea h5{
-  width:66%;
+  width:70%;
   font-size: 20px;
 }
 nav{
