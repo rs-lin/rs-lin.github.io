@@ -7,6 +7,9 @@
     <title>Ruishan Lin</title>
     <!-- Media query for full browser width -->
     <link rel="stylesheet" media="only screen and (min-width: 961px)" href="styles/desktop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Or for the latest version (v6+) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Bootstrap -->
     <link href="styles/bootstrap.min.css" rel="stylesheet">
@@ -25,6 +28,7 @@
       <div class="col-md-3">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>
       </div>
+      
       <nav class="navbar navbar-inverse">
         <div class="container" >
           <!-- Brand and toggle get grouped for better mobile display -->
@@ -40,43 +44,200 @@
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="cv/RLcv.pdf" target = "_blank">CV <span class="sr-only">(current)</span></a></li>
+            <ul class="nav navbar-nav justify-content-center">
+              <li class="active"><a href="cv/CV_JAN2026.pdf" target = "_blank">CV <span class="sr-only">(current)</span></a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="mailto: rlin8@gmu.edu"> Email </a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="https://www.linkedin.com/in/ruishanlin/" target = "_blank">Linkedin</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="https://github.com/rs-lin" target = "_blank">Github</a></li>
+                  <!--<li role="separator" class="divider"></li>-->
                 </ul>
               </li>
             </ul>
+            <span class="navbar-text navbar-right" style="margin-right: 140px;">
+              Ruishan Lin's Personal Website
+            </span>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
       </nav>
-      <!-- JUMBOTRON -->
-      <div class="jumbotron text-center">
-        <div class="container">
-          <h1>Ruishan Lin</h1>
-          <p>Statistics Doctral Student @ George Mason University</p>
-          <a href="#" class="btn btn-primary">Read More</a>
-        </div>
-      </div>
-      <!--Photo -->
-      <div class="post">
-        <img src="img/squaredProfilePic.jpg"/>
-      </div>
-      <!-- text-->
-      <div class="textarea">
-        <h6> </h6>
-        <h6> I'm a fifth-year Statistics PhD candidate at George Mason University (GMU), where I have the privilege of collaborating with three esteemed mentors in the field: <a href="https://jauerbach.github.io/"> Dr. Jonathan Auerbach </a>, <a href="https://www.dkepplinger.org/"> Dr. David Kepplinger</a>, and <a href="https://sites.google.com/site/abolfazlsafikhani/"> Dr. Abolfazl Safikhani</a>. My research interests include change point detection, network-based time series models, and Bayesian statistics. </h6> 
-        </div>
-      <div class="col-md-3">
-      </div>
     </div>
+      <!-- (Left tilted) Page Header 
+      <div class="page-header">
+        <div class = "row">
+          <div class="col-md-2">
+          </div>
+          <div class = "col-md-3">
+            <div class="container">
+              <h1 style="margin-left: 50px;">Ruishan Lin &nbsp;
+                <a href="https://www.linkedin.com/in/ruishanlin/" target="_blank" aria-label="LinkedIn Profile">
+                <i class="fa fa-linkedin" style="font-size: 24px;"></i> 
+               </a>
 
+                <a href="https://github.com/rs-lin" target="_blank" aria-label="GitHub Profile">
+                    <i class="fa fa-github" style="font-size: 24px;"></i> 
+                </a> 
+              </h1>
+              
+                
+              <p style="margin-left: 50px;"> Statistics Doctral Candidate @ <a href="https://statistics.gmu.edu"> Statistics Department</a>, George Mason University</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+          </div>
+          
+        </div>
+      </div>
+     End Page Header -->
+      <!-- Page Header -->
+      <div class="page-header"> 
+        <div class="container">
+          <h1 style="text-align:center;">Ruishan Lin &nbsp;
+            <a href="https://www.linkedin.com/in/ruishanlin/" target="_blank" aria-label="LinkedIn Profile">
+            <i class="fa fa-linkedin" style="font-size: 24px;"></i> 
+        <!-- For v6+: <i class="fa-brands fa-linkedin" style="font-size: 48px;"></i> -->
+            
+           </a>
+
+            <a href="https://github.com/rs-lin" target="_blank" aria-label="GitHub Profile">
+                <i class="fa fa-github" style="font-size: 24px;"></i> 
+                <!-- For v6+: <i class="fa-brands fa-github" style="font-size: 48px;"></i> -->
+            </a> 
+          </h1>
+          <br>
+            
+          <p style="text-align:center;"> Statistics Doctral Candidate @ <a href="https://statistics.gmu.edu"> Statistics Department</a>, George Mason University</p>
+        </div>
+      </div>
+      <!-- End Page Header -->
+      <!-- About Me -->
+      
+      <div class = "row">
+        <div class = "col-md-2">
+          <p></p>
+        </div>
+        <div class = "col-md-5">
+          <h2 style="margin-left: 70px;"> About me</h2>
+          <p style="margin-left: 70px;"> Hi! I'm a fifth-year Statistics PhD candidate at George Mason University (GMU), advised by <a href="https://jauerbach.github.io/"> Dr. Jonathan Auerbach </a>, <a href="https://www.dkepplinger.org/"> Dr. David Kepplinger</a>, and <a href="https://sites.google.com/site/abolfazlsafikhani/"> Dr. Abolfazl Safikhani</a>. My research interests include change point detection, network-based time series models, and Bayesian statistics. </p> 
+        </div>
+        <div class = "col-md-3">
+             <img src="img/profile.jpg" style="margin-left: 40px;" width="200"/>
+          </div>
+      </div>
+      
+      <!--End About Me -->
+
+      <!-- Education + Experience -->
+      <div class="row">
+        <div class="col-md-2">
+        </div>
+        <!-- Education -->
+        <div class = "col-md-4">
+          <h2 style="margin-left: 70px;"> Education</h2>
+          <p style="margin-left: 70px;"> </p> 
+          <ul style="margin-left: 70px;">
+            <li>
+              <b> George Mason University </b><br>
+              <span id="left" style="font-size: 13px;">PhD in Statistical Sciences</span>
+              <span id="right" style="font-size: 13px;">2021 - 2026</span>
+              <br>
+            </li>
+            
+            <li>
+              <b>New York University </b><br>
+              <span id="left" style="font-size: 13px;">BA in Mathematics</span>
+              <span id="right" style="font-size: 13px;">2016 - 2020</span> <br>
+              <span id="left" style="font-size: 13px;">Minor in German</span>
+              <span id="right" style="font-size: 13px;">cum laude</span>
+            </li>
+          </ul>
+        </div>
+        <!-- End Education -->
+        <!-- Experiences -->
+        <div class = "col-md-4">
+          <h2 style="margin-left: 70px;"> Experience</h2>
+          <p style="margin-left: 70px;"> </p> 
+          <ul style="margin-left: 70px;">
+            <li>
+              <b> Biomarker Statistician Intern </b><br>
+              <span id="left" style="font-size: 13px;">Sanofi</span>
+              <span id="right" style="font-size: 13px;">May - Aug, 2025</span>
+              <br>
+            </li>
+            
+            <li>
+              <b> Clinical Data Science Intern </b><br>
+              <span id="left" style="font-size: 13px;">Boehringer Ingelheim</span>
+              <span id="right" style="font-size: 13px;">May - Aug, 2024</span>
+              <br>
+            </li>
+
+            <li>
+              <b>Graduate Teaching & Research Assistant </b><br>
+              <span id="left" style="font-size: 13px;">George Mason University</span>
+              <span id="right" style="font-size: 13px;">2021 - 2025</span>
+              <br>
+            </li>
+          </ul>
+        </div>
+        <!-- End Experiences -->
+      </div>
+      <!-- End Education + Experience-->
+
+      <!-- Publication + Rewards Section -->
+      <div class="row">
+        <div class="col-md-2">
+        </div>
+        <!-- Publication -->
+        <div class = "col-md-4">
+          <h2 style="margin-left: 70px;"> Research Works</h2>
+          <p style="margin-left: 70px;"> </p> 
+          <ul style="margin-left: 70px;">
+            <li>
+              <span style="font-size: 13px;">
+                (Under Review) Auerbach, J, Crimmins, T. M., Kepplinger, D., <b>Lin, R.</b>, Wolkovich, E. M. A Nonparametric Bayesian Model to Adjust for Monitoring Bias with an Application to Identifying Environments Stressed by Climate Change. <a href = "https://arxiv.org/pdf/2503.04924"> [arXiv Link] </a>
+              </span>
+              <br>
+            </li>
+            <br>
+            <li>
+              <span  style="font-size: 13px;">
+                (Under Review) <b> Lin, R. </b> and Safikhani, A. Multiple Change Point Detection for Non-Stationary Network Auto-Regressive Models with Node-Level Dynamics.
+              </span>
+            </li>
+          </ul>
+        </div>
+        <!-- End Publication -->
+        <!-- Award -->
+        <div class = "col-md-4">
+          <h2 style="margin-left: 70px;"> Award</h2>
+          <p style="margin-left: 70px;"> </p> 
+          <ul style="margin-left: 70px;">
+            <li>
+              <b> First Place: Statistical Significance Poster Competition </b><br>
+              <span id="left" style="font-size: 13px;">American Statistical Association</span>
+              <span id="right" style="font-size: 13px;">August 2025</span>
+              <br>
+              <span id="left" style="font-size: 13px;"> &#8594 <a href = "https://community.amstat.org/spaac/awards/poster-award"> Award's page</a> &#8594<a href = "https://cec.gmu.edu/news/2025-10/statistical-signals-spot-seizures"> GMU news</a> </span>
+              <br>
+            </li>
+            
+            <li>
+              <b> PhD Student Poster Competition Award </b><br>
+              <span id="left" style="font-size: 13px;">StatConnect Conference</span>
+              <span id="right" style="font-size: 13px;"> March 2025</span>
+              <br>
+            </li>
+            
+            <li>
+              <b>Distinguished Service and Leadership Award </b> <br>
+              <span id="left" style="font-size: 13px;">Department of Statistics, George Mason University</span>
+              <span id="right" style="font-size: 13px;">May 2025</span>
+              <br>
+            </li>
+          </ul>
+        </div>
+        <!-- End Award -->
+      </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

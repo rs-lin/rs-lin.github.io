@@ -37,7 +37,13 @@
   text-decoration:underline;
   background-color:tan;
 }
-
+#page-header{
+  display:flex;
+  justify-content:space-between;
+  width:30%;
+  left: 50%;
+  margin:auto;
+}
 #about{
   text-align: center;
   font-family: 'Open Sans', sans-serif;
@@ -75,4 +81,37 @@
 }
 nav{
   position:fixed;
+}
+a:link {
+  color: #008285;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #008285;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFC733;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #008285;
+  background-color: transparent;
+  text-decoration: underline;
+}
+#left{
+     float:left;
+}
+#right{
+     float:right;
+}
+.center-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
 }
